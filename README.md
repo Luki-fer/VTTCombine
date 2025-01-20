@@ -9,6 +9,7 @@ Combines multiple .VTT files and increments new files' timestamps with the last 
 
 # Building (windows)
 Download the repo, and a C++ compiler and unzip in Downloads.
+Enter the following in command prompt
 ```CMD
 C:\Downloads\mingw64\bin\g++.exe -g C:\Downloads\VTTCombine\main.cpp -o C:\Downloads\VTTCombine\main.exe
 ```
