@@ -3,6 +3,8 @@ Combines multiple .VTT files and increments new files' timestamps with the last 
 
 > This is a small project of mine designed to combine .VTT files in a way that preserves the timings of the subtitles in relation from one file to another. 
 > Made in c++ shortly after I finished learning the ropes.
+> Takes in user input amount of files in the naming convention "1.vtt", "2.vtt", "3.vtt", ...
+> Output file : "0.vtt"
 
 # Prerequisites
 - [C++ compiler version 11 or newer](https://winlibs.com/)
@@ -16,8 +18,7 @@ C:\Downloads\mingw64\bin\g++.exe -g C:\Downloads\VTTCombine\main.cpp -o C:\Downl
 
 # Usage
 1. Place the `main.exe` file in the .vtt folder
-2. Rename your .vtt files by the following: select all .vtt files, press F2 or rightclick to rename, backspace, and enter.
-3. Double click `main.exe`
+2. Double click `main.exe`
 
 
 ## Contributing
